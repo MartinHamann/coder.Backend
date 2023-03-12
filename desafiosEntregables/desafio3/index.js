@@ -1,4 +1,4 @@
-import ProductManager from "./desafioEntregable2.js";
+import ProductManager from "./productManager.js";
 
 const env = async () => {
     const productManager = new ProductManager();
@@ -20,11 +20,11 @@ const env = async () => {
     // let query = await productManager.getProducts();
     // console.log(query);
 
-    // let adder = await productManager.addProduct(product);
-    // console.log(adder);
+    let adder = await productManager.addProduct(product);
+    console.log(adder);
 
-    let idQuery = await productManager.getProductById(3);
-    console.log(idQuery);
+    // let idQuery = await productManager.getProductById(3);
+    // console.log(idQuery);
 
     // let updater = await productManager.updateProduct(1, changes);
     // console.log(updater)
