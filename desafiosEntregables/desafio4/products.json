@@ -1,0 +1,79 @@
+[
+	{
+		"title": "Pera",
+		"description": "Deliciosa pera jugosa",
+		"code": "asdas",
+		"price": 400,
+		"status": "okay",
+		"stock": "100",
+		"category": "asasdasd",
+		"id": 1,
+		"thumbnail": []
+	},
+	{
+		"title": "Manzana",
+		"description": "Roja y sabrosa",
+		"code": "asdas",
+		"price": 600,
+		"status": "okay",
+		"stock": "200",
+		"category": "asasdasd",
+		"id": 2,
+		"thumbnail": []
+	},
+	{
+		"title": "Mandarina",
+		"description": "Acida y refrescante",
+		"code": "asdas",
+		"price": 320,
+		"status": "okay",
+		"stock": "300",
+		"category": "asasdasd",
+		"id": 3,
+		"thumbnail": []
+	},
+	{
+		"title": "Naranja",
+		"description": "Excelente para juguito con mucha vitamina C",
+		"code": "asdas",
+		"price": 280,
+		"status": "okay",
+		"stock": "500",
+		"category": "asasdasd",
+		"id": 4,
+		"thumbnail": []
+	},
+	{
+		"title": "Durazno",
+		"description": "Dulce y grande perfecto para postres",
+		"code": "asdas",
+		"price": 550,
+		"status": "okay",
+		"stock": "360",
+		"category": "asasdasd",
+		"id": 5,
+		"thumbnail": []
+	},
+	{
+		"title": "Uva",
+		"description": "Racimo de las mas deliciosas uvas",
+		"code": "asdas",
+		"price": 410,
+		"status": "okay",
+		"stock": "600",
+		"category": "asasdasd",
+		"id": 6,
+		"thumbnail": []
+	},
+	{
+		"title": "Kiwi",
+		"description": "Kiwi de importación super sabroso",
+		"code": "asdas",
+		"price": 800,
+		"status": "okay",
+		"stock": "180",
+		"category": "asasdasd",
+		"id": 7,
+		"thumbnail": []
+	}
+]
