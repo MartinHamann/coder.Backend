@@ -1,0 +1,43 @@
+<div class="row">
+  <div class="col-sm-6">
+    {{#each products}}
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <a href="/product/{{this._id}}"><h5 class="card-title">{{this.title}}</h5></a>
+          <p class="card-text">{{this.description}}</p>
+          <p class="card-text">${{this.price}}</p>
+          <a id="{{this._id}}" onclick="addToCart(this.id)" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  {{#if hasPrevPage}}
+    <a href="/?page={{prevPage}}"><button class="btn btn-primary">Anterior</button></a>
+  {{/if}}
+
+  {{!-- <p>{{page}} of {{totalPages}}</p> --}}
+
+  {{#if hasNextPage}}
+    <a href="/?page={{nextPage}}"><button
+        class="btn btn-primary"
+      >Siguiente</button></a>
+  {{/if}}
+  {{!-- <div class="flex flex-row justify-center m-4">
+    {{#if hasPrevPage}}
+      <a href="/api/products?page={{prevPage}}"><button
+          class="text-slate-100 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-8 py-2.5 text-center ml-2"
+        >Previous</button></a>
+    {{/if}}
+
+    <p
+      class="text-slate-100 bg-gray-500/50 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-6 py-2.5 text-center mx-4"
+    >{{page}}</p>
+
+    {{#if hasNextPage}}
+      <a href="/api/products?page={{nextPage}}"><button
+          class="text-slate-100 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-8 py-2.5 text-center ml-2"
+        >Next</button></a>
+    {{/if}}
+  </div> --}}
+  <script src="/js/products.js"></script>

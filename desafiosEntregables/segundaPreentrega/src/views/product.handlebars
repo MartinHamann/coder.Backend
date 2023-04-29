@@ -1,0 +1,9 @@
+<div id="productDetails">
+    <h1>Product Details</h1>
+    <h3>{{product.title}}</h3>
+    <p>${{product.price}}</p>
+    <p>Category: {{product.category}}</p>
+    <p>{{product.description}}</p>
+    <a id="{{this._id}}" onclick="addToCart(this.id)" class="btn btn-primary">Add to cart</a>
+</div>
+<script src="/js/products.js"></script>

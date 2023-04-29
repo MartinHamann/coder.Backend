@@ -1,0 +1,16 @@
+<h1 class="flex p-2 justify-center font-mono text-2xl text-slate-200">Details
+  for Cart
+  {{cart._id}}</h1>
+<div id="cartDetail" class="flex flex-col justify-center m-6 items-center">
+  {{#each cart.products}}
+    <div id="productDetails">
+      <h3>{{product.title}}</h3>
+      <p>${{product.price}}</p>
+      <p>Category: {{product.category}}</p>
+      <p>{{product.description}}</p>
+      <p>Cantidad : {{quantity}}</p>
+      <a id="{{product._id}}" onclick="addToCart(this.id)" class="btn btn-primary">Add to cart</a>
+    </div>
+  {{/each}}
+</div>
+<script src="/js/products.js"></script>
